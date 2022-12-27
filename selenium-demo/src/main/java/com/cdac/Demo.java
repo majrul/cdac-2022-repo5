@@ -15,9 +15,13 @@ public class Demo {
 		driver.findElement(By.className("someeffect")).click();
 		
 		driver.findElement(By.id("uname")).sendKeys("majrul");
-		driver.findElement(By.id("pwd")).sendKeys("123456");
+		driver.findElement(By.id("pwd")).sendKeys("1234");
+		driver.findElement(By.cssSelector("input[type='checkbox']")).click();
+		//driver.findElement(By.tagName("button")).submit();
 		
-		try { Thread.sleep(2000); } catch(Exception e) { }
+		System.out.println(driver.findElement(By.tagName("h1")).getText());
+				
+		try { Thread.sleep(5000); } catch(Exception e) { }
 		driver.close();
 	}
 }
