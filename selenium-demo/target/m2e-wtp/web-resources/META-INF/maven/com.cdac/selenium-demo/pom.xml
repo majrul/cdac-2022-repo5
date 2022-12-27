@@ -3,6 +3,7 @@
 	<groupId>com.cdac</groupId>
 	<artifactId>selenium-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
